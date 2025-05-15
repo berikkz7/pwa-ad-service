@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<хтх ланг="ру">
-<голова>
-    <мета чарсет="ЮТФ-8">
-    <мета имя="видовой экран" содержание="ширина=ширина устройства, начальный масштаб=1.0">
-    <заголовок>Рекламный сервис PWA</заголовок>
-    <ссылка рел="таблица стилей" href="css/style.css">
-</голова>
-<тело>
-    <навигация>
-        <кнопка онклик="loadPage('дом')">Главная</button>
-        <кнопка онклик="loadPage('ад')">Объявление</button>
-        <кнопка онклик="loadPage(«шкаф»)">Кабинет</button>
-    </навигация>
-    <див идентификатор="содержание"></див>
-    <сценарий src="js/main.js"></сценарий>
-</тело>
-</хтх>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Ad Service</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <button onclick="loadPage('home')">Главная</button>
+        <button onclick="loadPage('ad')">Объявление</button>
+        <button onclick="loadPage('cabinet')">Кабинет</button>
+    </nav>
+    <div id="content"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>
